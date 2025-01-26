@@ -88,7 +88,7 @@ const TodoList = () => {
                                 onChange={() => checkboxHandler(index)}
                                 className="mx-1.5"
                             />
-                            <p className={` break-words truncate w-[10vw] ${item.checked ? "line-through" : ""}`}>{item.text}</p>
+                            <p className={` break-words truncate md:w-[25vw] sm:w-[30vw]] ${item.checked ? "line-through" : ""}`}>{item.text}</p>
                         </div>
                         <div className="flex items-center">
                             <button
